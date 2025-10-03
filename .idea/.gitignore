@@ -1,0 +1,32 @@
+### IntelliJ ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Temp ###
+*.tmp
+*.swp
+*.swo
+
+### Spring Boot configs ###
+application-*.yml
+application-*.properties
+!application.properties
+
+### Coverage / Reports ###
+*.lcov
+coverage/
+
